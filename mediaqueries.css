@@ -1,0 +1,127 @@
+@media (min-width: 75em) {
+  html {
+    font-size: 11px;
+  }
+  /* .hero-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  .mobile-nav {
+    display: none;
+  }
+}
+@media (max-width: 75em) {
+  .mobile-nav {
+    display: none;
+  }
+}
+/* Landscape Tablet 944px */
+@media (max-width: 59em) {
+  .fa-bars {
+    font-size: 4rem;
+    color: #ff331f;
+  }
+
+  .menu,
+  .nav-btn {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-btn {
+    align-self: center;
+  }
+
+  .mid-section {
+    display: block;
+  }
+
+  .collection-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .benefits-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 38em) {
+  .benefits-description {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits-icon {
+    font-size: 1.4rem;
+  }
+
+  .service-card {
+    margin-bottom: 1.2rem;
+    gap: 0rem;
+  }
+
+  .form-wrap {
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+/* Mobile max-width: 530px */
+@media (max-width: 33em) {
+  html {
+    font-size: 8px;
+  }
+  .experience-section {
+    font-size: 0.2rem;
+  }
+  .collection-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-lines input {
+    font-size: 8px;
+    padding: 6px;
+  }
+
+  .form-lines {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 28em) {
+  html {
+    font-size: 8px;
+  }
+
+  .hero-text h1,
+  .hero-text p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 327px) {
+  .hero-text {
+    width: 200px;
+  }
+  .book-btn {
+    width: 190px;
+  }
+}

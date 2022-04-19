@@ -1,0 +1,413 @@
+/*Color Palete: 
+Main accents: #4dabf7
+
+Accent: #0e71d4
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+html {
+  /* font-size: 62.5%; */
+  font-size: 10px;
+}
+
+/* .container {
+  width: 130rem;
+  margin: 0 auto;
+} */
+
+.logo {
+  display: flex;
+}
+.menu ul {
+  margin: 0rem 2rem;
+}
+.logo h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.3rem;
+}
+.logo h2 {
+  font-size: 2rem;
+  color: #ff331f;
+  margin-left: 0.3rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgba(24, 24, 24, 0.5);
+  border-bottom: 2px solid #ff331f;
+}
+.menu {
+  align-self: center;
+  height: 2rem;
+}
+.menu li {
+  display: inline-block;
+  justify-self: center;
+  font-size: 1.6rem;
+  margin: 0rem 1rem;
+  padding: 0.2rem;
+}
+
+.menu li:hover {
+  border-bottom: 2px solid #ff331f;
+}
+.menu a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-btn {
+  align-self: center;
+}
+.navbar-btn {
+  width: 10rem;
+  border: none;
+  background-color: #ff331f;
+  padding: 0.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: 2px solid #ff331f;
+  margin-right: 2rem;
+}
+
+.navbar-btn:hover {
+  cursor: pointer;
+  color: #ff331f;
+  background: transparent;
+  transition: 0.5s;
+}
+.signup {
+  background: transparent;
+  color: white;
+}
+.signup:hover {
+  cursor: pointer;
+  background-color: #ff331f;
+  color: #111;
+}
+.hero-img {
+  background-image: /*linear-gradient(rgba(55, 55, 55, 0.2), rgba(0, 0, 0, 0.2)),*/ url(./Images/hero-backgroung.jpg);
+  max-width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.8rem;
+  margin-top: 25rem;
+  margin-left: 9rem;
+}
+
+.book-btn {
+  width: 35rem;
+  height: 5rem;
+  background-color: #ff331f;
+  color: #111;
+  border: none;
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  border: 2px solid #ff331f;
+  transition: 0.5s;
+  margin-top: 5rem;
+}
+.book-btn:hover {
+  cursor: pointer;
+  color: #ff331f;
+  background-color: transparent;
+}
+
+.mid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 5rem;
+  gap: 1rem;
+}
+.mid-title {
+  text-align: center;
+  font-size: 2.8rem;
+  letter-spacing: 0.5rem;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  margin: 7rem 0rem;
+}
+.mid-img {
+  width: 100%;
+  align-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.mid-description {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  grid-column: 2/-1;
+  grid-row: 1/2;
+}
+.mid-description h2 {
+  margin-bottom: 3rem;
+  grid-column: 1/2;
+  grid-row: 2/-1;
+  letter-spacing: 0.3rem;
+}
+.mid-img2 {
+  width: 100%;
+  align-self: center;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.mid-description2 {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.mid-description2 h2 {
+  margin-bottom: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.collection-title {
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 4rem;
+  letter-spacing: 0.5rem;
+}
+.collection-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem 2rem;
+  margin: 0 5rem;
+}
+.card {
+  max-width: 40rem;
+  justify-self: center;
+  border-bottom: 3px solid #111;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  opacity: 0.95;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0rem 1rem;
+}
+
+.card-btn {
+  padding: 1rem;
+  margin: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #111;
+  border: 2px solid #111;
+  letter-spacing: 0.2rem;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  color: #111;
+  background: transparent;
+  transform: scale(1.04);
+}
+.car-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.car-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin: 10rem 5rem;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.benefits h4 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #111;
+}
+
+.benefits-icon {
+  width: 5rem;
+  color: #111;
+}
+
+.benefits-description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.form-container {
+  color: #111;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  margin: 9rem 5rem;
+}
+
+.lion-icon {
+  width: 7rem;
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+.member-form {
+  max-width: 40rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background-color: rgb(214, 212, 212);
+  box-shadow: rgb(120 120 120 / 20%) 0px 2px 8px 0px;
+}
+
+.member-form h3,
+.member-form p {
+  padding-bottom: 2rem;
+}
+
+.member-form input {
+  text-align: center;
+  padding: 1rem;
+  margin: 0 2rem;
+  width: 100%;
+  border-radius: 0;
+  border: 2px solid #111;
+  border-bottom: none;
+}
+
+.member-form :nth-child(4) {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.member-form button {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 0 2rem;
+  width: 100%;
+  border-radius: 0;
+  color: white;
+  background-color: #111;
+  border: 2px solid #111;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.member-form button:hover {
+  color: #111;
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.2rem;
+  padding: 3rem;
+}
+.footer-col {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-self: center;
+}
+.footer-col h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.footer-col a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.footer-col a:hover {
+  color: #ff331f;
+  transform: scale(1.04);
+}
+.social-media {
+  width: 3rem;
+  fill: white;
+}
+.social-media:hover {
+  cursor: pointer;
+  fill: #ff331f;
+  transform: scale(1.04);
+}
+.copyright {
+  font-size: 1.2rem;
+  grid-column: 1/-1;
+  grid-row: 2/-1;
+  justify-self: center;
+  align-self: center;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+}
