@@ -103,9 +103,22 @@ html {
   color: #111;
 }
 
-.fa-xmark {
-  display: none;
+/* .mobile-nav {
+  border: none;
+  padding: 1.6rem;
+  background-color: transparent;
 }
+
+.mobile-nav .mobile-nav-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #333;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+} */
+
 .hero-img {
   background-image: linear-gradient(rgba(55, 55, 55, 0.4), rgba(0, 0, 0, 0.4)),
     url(./Images/hero-backgroung.jpg);
